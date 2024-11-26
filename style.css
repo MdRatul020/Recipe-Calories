@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+/* header start */
+header {
+  align-items: center;
+}
+.container {
+  margin: 50px 140px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav h1 {
+  color: #150b2b;
+  font-size: 32px;
+  font-weight: 600;
+}
+.nav ul {
+  display: flex;
+  gap: 25px;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #150b2bb3;
+}
+.input {
+  border-radius: 25px;
+  padding: 12px 24px;
+  background-color: #150b2b0d;
+  margin-right: 10px;
+}
+.input i {
+  align-items: center;
+  color: #150b2bb3;
+}
+.search {
+  border: none;
+  background-color: transparent;
+  padding-left: 8px;
+  font-size: 16px;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+
+.search:focus-visible {
+  outline: 0;
+}
+
+/* banner start */
+
+.background {
+  background-image: url(img/banner.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .banner h1 {
+  color: #fff;
+}
+.container .banner p {
+  color: #fff;
+}
+.banner h1 {
+  font-size: 52px;
+  font-weight: 600px;
+}
+.btn-primary {
+  color: #150b2b;
+  background-color: rgb(11, 229, 109);
+  border-radius: 50px;
+  padding: 20px 30px;
+  border: none;
+  margin-top: 40px;
+}
+.btn-primary-2 {
+  color: #fff;
+  border-radius: 50px;
+  padding: 20px 30px;
+  border: none;
+  margin-top: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+/* Our Recipes start */
+
+.container {
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.container h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.container p {
+  margin-top: 24px;
+}
+
+/* card start */
+.card {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  margin: 70px;
+}
+.card-content {
+  padding: 10px;
+}
+
+.card-reciption {
+  border: 1px solid #878787;
+  padding: 20px;
+  border-radius: 16px;
+}
+.card-reciption h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 24px;
+  color: #282828;
+}
+.card-reciption .imges img {
+  border-radius: 10px;
+  width: 350px;
+}
+
+.card-reciption p {
+  font-size: 16px;
+  color: #878787;
+  margin-top: 16px;
+}
+
+.card-reciption h3 {
+  font-size: 18px;
+  color: #282828;
+  margin-top: 24px;
+}
+
+.card-reciption ul {
+  margin-top: 16px;
+}
+.card-reciption ul a {
+  font-size: 18px;
+  color: #878787;
+  text-decoration: none;
+}
+
+.submit-1 {
+  text-align: center;
+}
+
+.submit-1 button:hover {
+  background-color: greenyellow;
+  color: black;
+}
+.submit-1 button {
+  border-radius: 50px;
+  padding: 20px 50px;
+  border: none;
+  background-color: rgb(36, 187, 69);
+}
